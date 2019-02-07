@@ -1,0 +1,11 @@
+{
+  "name": "pepelsbey.net",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve --quiet"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1"
+  }
+}
