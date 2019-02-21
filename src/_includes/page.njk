@@ -7,16 +7,11 @@
     <link rel="stylesheet" href="/styles/screen.css">
 </head>
 <body class="page__body">
-    <header class="header">
-        <h1 class="header__title">
-            <a class="header__link" href="/">Пепелсбей.net</a>
-        </h1>
-    </header>
+    {% include 'header.njk' %}
     <main class="main">
         {{ content | safe }}
     </main>
-    <footer class="footer">
-        <p>2005—2019 © Вадим Макеев</p>
-    </footer>
+    {% include 'aside.njk' %}
+    {% include 'footer.njk' %}
 </body>
 </html>
