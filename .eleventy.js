@@ -1,5 +1,6 @@
 module.exports = function(config) {
     config.addPassthroughCopy('src/pres');
+    config.addPassthroughCopy('src/styles');
     return {
         dir: {
             input: 'src',
