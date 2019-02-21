@@ -6,6 +6,10 @@ module.exports = function(config) {
             input: 'src',
             output: 'dist'
         },
-        passthroughFileCopy: true
+        passthroughFileCopy: true,
+        templateFormats: [
+            'md',
+            'gif', 'jpg', 'png', 'svg'
+        ],
     };
 };
