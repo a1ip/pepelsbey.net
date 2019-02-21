@@ -1,0 +1,17 @@
+/* Header */
+
+.header__title {
+    margin: 0;
+    line-height: 1;
+}
+
+.header__link {
+    display: flex;
+    color: #402724;
+    text-decoration: none;
+}
+
+.header__link::before {
+    width: 1em;
+    content: url(logo.svg);
+}

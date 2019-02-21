@@ -1,0 +1,9 @@
+.page {
+    font-family: 'Journal Sans New', sans-serif;
+}
+
+.page__body {
+    margin: 0;
+    background-color: #eeeceb;
+    color: #402724;
+}
