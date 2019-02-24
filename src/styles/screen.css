@@ -7,5 +7,6 @@
 @import 'blocks/page/page.css';
 @import 'blocks/header/header.css';
 @import 'blocks/main/main.css';
+@import 'blocks/content/content.css';
 @import 'blocks/archive/archive.css';
 @import 'blocks/footer/footer.css';
