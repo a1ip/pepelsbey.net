@@ -7,6 +7,8 @@
 .header__title {
     margin: 0;
     line-height: 1;
+    font-weight: normal;
+    font-size: 35px;
 }
 
 .header__link {
@@ -16,6 +18,8 @@
 }
 
 .header__link::before {
+    margin-left: -0.1em;
+    margin-right: 0.1em;
     width: 1em;
     content: url(logo.svg);
 }
