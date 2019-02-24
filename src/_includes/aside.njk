@@ -1,7 +1,7 @@
 <aside class="archive">
     <h2 class="archive__title">Архив</h2>
     <ul class="archive__list">
-    {%- for post in collections.post -%}
+    {%- for post in collections.post | reverse -%}
         <li class="archive__item">
             <a class="archive__link" href="{{ post.url }}">
                 {{ post.data.title }}
