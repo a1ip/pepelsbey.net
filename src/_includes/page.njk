@@ -3,15 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+    <title>
+        {{ title }}{% if page.url != '/' %} — Пепелсбей.net{% endif %}
+    </title>
     <link rel="stylesheet" href="/styles/screen.css">
 </head>
 <body class="page__body">
-    {% include 'header.njk' %}
-    <main class="main content">
-        {{ content | safe }}
-    </main>
-    {% include 'aside.njk' %}
-    {% include 'footer.njk' %}
+    {{ content | safe }}
 </body>
 </html>
