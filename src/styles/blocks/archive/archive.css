@@ -6,6 +6,7 @@
 
 .archive__title {
     margin: 0;
+    font-weight: normal;
 }
 
 .archive__list {
