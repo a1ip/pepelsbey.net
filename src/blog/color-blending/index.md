@@ -32,19 +32,19 @@ layout: post.njk
 Любые попытки потрогать её пипеткой, приводят ровно к пяти цветам, как и ожидалось. Дальше верстаем такие же пять квадратов размером 200 × 200 пикселов. Каждому из них присваивается класс, накладывающий градиентную картинку (полупрозрачный PNG-24, почищенный при помощи [ImageOptim](http://imageoptim.pornel.net/)) на соответствующий фоновый цвет:
 
     .color-000 {
-        background:#000 url(000.png) no-repeat;
+        background: #000 url(000.png) no-repeat;
         }
     .color-CCC {
-        background:#CCC url(CCC.png) no-repeat;
+        background: #CCC url(CCC.png) no-repeat;
         }
     .color-C00 {
-        background:#C00 url(C00.png) no-repeat;
+        background: #C00 url(C00.png) no-repeat;
         }
     .color-090 {
-        background:#090 url(090.png) no-repeat;
+        background: #090 url(090.png) no-repeat;
         }
     .color-069 {
-        background:#069 url(069.png) no-repeat;
+        background: #069 url(069.png) no-repeat;
         }
 
 Такое наложение имитирует слои в Фотошопе. В браузерах вышла следующая картина:

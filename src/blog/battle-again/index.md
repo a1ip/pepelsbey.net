@@ -34,8 +34,8 @@ layout: post.njk
 
 ## Тесты ACID
 
-- [ACID 2](http://acid2.acidtests.org/) — IE8: [результат почти близок](/pro/2008/03/battle-again/acid2.ie8.png), IE7: [страх и ненависть](/pro/2008/03/battle-again/acid2.ie7.png).
-- [ACID 3](http://acid3.acidtests.org/) — IE8: [17/100 и хоть на что-то похоже](/pro/2008/03/battle-again/acid3.ie8.png), IE7: [14/100 и полный взрыв](/pro/2008/03/battle-again/acid3.ie7.png).
+- [ACID 2](http://acid2.acidtests.org/) — IE8: [результат почти близок](images/battle-again/acid2.ie8.png), IE7: [страх и ненависть](images/battle-again/acid2.ie7.png).
+- [ACID 3](http://acid3.acidtests.org/) — IE8: [17/100 и хоть на что-то похоже](images/acid3.ie8.png), IE7: [14/100 и полный взрыв](images/acid3.ie7.png).
 
 Ну, и главный тест, волнующий любого сайтовладельца: А у меня-то как? У меня — лёгкие осколочные ранения, а у вас? Хотя, памятуя о том, что вытворяла первая бета IE7, лучше не хвататься за револьвер раньше времени.
 

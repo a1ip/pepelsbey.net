@@ -19,7 +19,7 @@ layout: post.njk
 - Spread: 0
 - Size: 100px
 
-[![Photoshop, drop shadow](/pro/2008/10/firefox-vs-photoshop/photoshop-t.png)](/pro/2008/10/firefox-vs-photoshop/photoshop.png)
+[![Photoshop, drop shadow](images/photoshop-t.png)](images/photoshop.png)
 
 Photoshop, drop shadow
 
@@ -36,7 +36,7 @@ Photoshop, drop shadow
 
 Подробное описание свойства `box-shadow` доступно в [черновиках W3C](http://www.w3.org/TR/CSS3-background/#the-box-shadow).
 
-[![Firefox, box-shadow](/pro/2008/10/firefox-vs-photoshop/firefox-t.png)](/pro/2008/10/firefox-vs-photoshop/firefox.png)
+[![Firefox, box-shadow](images/firefox-t.png)](images/firefox.png)
 
 Firefox, box-shadow
 
@@ -46,7 +46,7 @@ Firefox, box-shadow
 
 Завершает показательные выступления браузер Safari, в котором свойство `box-shadow` хоть и появилось впервые на рынке, но до сих пор прячется за префиксом: `-webkit-box-shadow:0 0 100px #000`
 
-[![Safari, box-shadow](/pro/2008/10/firefox-vs-photoshop/safari-t.png)](/pro/2008/10/firefox-vs-photoshop/safari.png)
+[![Safari, box-shadow](images/safari-t.png)](images/safari.png)
 
 Safari, box-shadow
 
@@ -63,9 +63,9 @@ Safari, box-shadow
 
 К примеру, данный код выводит приблизительно одинаковые тени, как в Firefox 3.1, так и в Safari 3.1:
 
-    -moz-box-shadow:0 0 34px #000;
+    -moz-box-shadow: 0 0 34px #000;
 
-[![Safari vs. Firefox, box-shadow](/pro/2008/10/firefox-vs-photoshop/safari-firefox-t.png)](/pro/2008/10/firefox-vs-photoshop/safari-firefox.png)
+[![Safari vs. Firefox, box-shadow](images/safari-firefox-t.png)](images/safari-firefox.png)
 
 Safari vs. Firefox, box-shadow
 

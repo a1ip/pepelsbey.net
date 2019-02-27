@@ -7,7 +7,7 @@ layout: post.njk
 
 Зачастую HTML-валидатор — это не только способ похвастаться аккуратным кодом, поставив зелёную галочку на сайт, но ещё и полезный инструмент для непосредственной разработки. Контроль аккуратности кода, отсутствия каких-то опечаток или неуместных вещей стоит производить как можно чаще.
 
-[![Validator S.A.C.](/pro/2008/02/pocket-validator/validator-t.png)](/pro/2008/02/pocket-validator/validator.png)
+[![Validator S.A.C.](images/validator-t.png)](images/validator.png)
 
 Validator S.A.C.
 

@@ -19,13 +19,20 @@ layout: post.njk
 
 ## Технологии
 
-Как бы это ни было сложно, но HTML-код сайта старается соответствовать [черновику спецификации HTML5](http://dev.w3.org/html5/spec/spec). Более того, пока даже получается [проходить валидацию](http://html5.validator.nu/?doc=http://pepelsbey.net/). И самое минимальное: отказ от XHTML, новый доктайп `<!DOCTYPE HTML>`, новая семантика языка `<article>`, `<header>`, `<time>`. По этой причине пока пользователи IE видят не самые приятные вещи, но почему так — чуть ниже.
+Как бы это ни было сложно, но HTML-код сайта старается соответствовать [черновику спецификации HTML5](http://dev.w3.org/html5/spec/spec). Более того, пока даже получается [проходить валидацию](http://html5.validator.nu/?doc=http://pepelsbey.net/). И самое минимальное: отказ от XHTML, новый доктайп `---
+title: 'TITLE'
+date: 'DATE'
+tags: post
+layout: post.njk
+---
+
+`, новая семантика языка `<article>`, `<header>`, `<time>`. По этой причине пока пользователи IE видят не самые приятные вещи, но почему так — чуть ниже.
 
 Пересмотру подверглись некоторые элементы: фрагмент кода теперь состоит из элемента `<pre>` и `<code>`, по количеству строк:
 
     <pre>
-        <code></code>
-        <code></code>
+        <code>
+        <code>
     <pre>
 
 …а уменьшенные версии картинок построены на элементе `<figure>`:
@@ -37,10 +44,10 @@ layout: post.njk
 
 На примеры использования таких картинок, а также работу новой версии [Даркбокс](/2009/02/darkbox-2/), можно взглянуть в заметке [Firefox против Photoshop](/2008/10/firefox-vs-photoshop/). Ну и конечно же CSS 3: от пресловутых веб-шрифтов и `border-radius` до `transition`, из-за чего код местами распух от вендорных префиксов:
 
-    -webkit-transition:background-color .2s linear;
-    -moz-transition:background-color .2s linear;
-    -o-transition:background-color .2s linear;
-    transition:background-color .2s linear;
+    -webkit-transition: background-color .2s linear;
+    -moz-transition: background-color .2s linear;
+    -o-transition: background-color .2s linear;
+    transition: background-color .2s linear;
 
 Также гораздо смелее стали использоваться селекторы: от простых `E > E` и `E + E` до `E:first-of-type`. К сожалению, с некоторыми конструкциями не справляется даже IE8.
 

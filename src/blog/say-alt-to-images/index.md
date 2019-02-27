@@ -27,7 +27,7 @@ layout: post.njk
 
 …и получаем:
 
-![Альтернативный текст: alt vs. value](/pro/2008/05/say-alt-to-images/alt.vs.value.png)
+![Альтернативный текст: alt vs. value](images/alt.vs.value.png)
 
 Альтернативный текст: alt vs. value
 
