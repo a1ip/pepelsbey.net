@@ -6,6 +6,7 @@
             <a class="archive__link" href="{{ post.url }}">
                 {{ post.data.title }}
             </a>
+            {{ post.data.date | readableDate }}
         </li>
     {%- endfor -%}
     </ul>

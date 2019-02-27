@@ -5,7 +5,7 @@ layout: page.njk
 {% include 'header.njk' %}
 <main class="main content">
     <h1>{{ title }}</h1>
-    <p>{{ date }}</p>
+    <p>{{ date | readableDate }}</p>
     {{ content | safe }}
 </main>
 {% include 'footer.njk' %}
