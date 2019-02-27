@@ -1,6 +1,6 @@
 ---
 title: 'Zen Coding 2.0. Концепт'
-date: '2009-04-02'
+date: 2009-04-02
 tags: post
 layout: post.njk
 ---

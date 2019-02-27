@@ -1,6 +1,6 @@
 ---
 title: 'В чём мать родила'
-date: '2009-04-08'
+date: 2009-04-08
 tags: post
 layout: post.njk
 ---

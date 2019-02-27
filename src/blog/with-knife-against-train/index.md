@@ -1,6 +1,6 @@
 ---
 title: 'С ножом против паровоза'
-date: '2009-02-15'
+date: 2009-02-15
 tags: post
 layout: post.njk
 ---

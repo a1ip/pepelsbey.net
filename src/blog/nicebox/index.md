@@ -1,6 +1,6 @@
 ---
 title: 'Найсбокс'
-date: '2008-05-02'
+date: 2008-05-02
 tags: post
 layout: post.njk
 ---

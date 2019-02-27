@@ -1,6 +1,6 @@
 ---
 title: 'Скажем alt картинкам!'
-date: '2008-05-26'
+date: 2008-05-26
 tags: post
 layout: post.njk
 ---

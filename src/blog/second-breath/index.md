@@ -1,6 +1,6 @@
 ---
 title: 'Второе дыхание'
-date: '2008-02-05'
+date: 2008-02-05
 tags: post
 layout: post.njk
 ---

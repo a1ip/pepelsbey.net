@@ -1,6 +1,6 @@
 ---
 title: 'Веб в кривых. Второе рождение SVG'
-date: '2010-11-09'
+date: 2010-11-09
 tags: post
 layout: post.njk
 ---

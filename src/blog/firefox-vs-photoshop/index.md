@@ -1,6 +1,6 @@
 ---
 title: 'Firefox против Photoshop'
-date: '2008-10-16'
+date: 2008-10-16
 tags: post
 layout: post.njk
 ---

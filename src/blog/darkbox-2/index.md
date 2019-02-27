@@ -1,6 +1,6 @@
 ---
 title: 'Даркбокс 2'
-date: '2009-02-19'
+date: 2009-02-19
 tags: post
 layout: post.njk
 ---

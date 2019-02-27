@@ -1,6 +1,6 @@
 ---
 title: 'Модный переключатель'
-date: '2012-08-26'
+date: 2012-08-26
 tags: post
 layout: post.njk
 ---

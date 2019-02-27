@@ -1,6 +1,6 @@
 ---
 title: 'Zen HTML'
-date: '2008-08-31'
+date: 2008-08-31
 tags: post
 layout: post.njk
 ---

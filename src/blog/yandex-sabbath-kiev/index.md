@@ -1,6 +1,6 @@
 ---
 title: 'Яндекс.Субботник в Киеве'
-date: '2009-03-31'
+date: 2009-03-31
 tags: post
 layout: post.njk
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'Чай со спецэффектами'
-date: '2009-12-24'
+date: 2009-12-24
 tags: post
 layout: post.njk
 ---

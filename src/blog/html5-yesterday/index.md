@@ -1,6 +1,6 @@
 ---
 title: 'HTML5 ещё вчера'
-date: '2010-09-25'
+date: 2010-09-25
 tags: post
 layout: post.njk
 ---

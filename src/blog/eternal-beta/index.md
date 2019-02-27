@@ -1,6 +1,6 @@
 ---
 title: 'Вечная бета'
-date: '2010-01-12'
+date: 2010-01-12
 tags: post
 layout: post.njk
 ---

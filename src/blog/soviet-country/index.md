@@ -1,6 +1,6 @@
 ---
 title: 'Страна Советов'
-date: '2008-05-22'
+date: 2008-05-22
 tags: post
 layout: post.njk
 ---

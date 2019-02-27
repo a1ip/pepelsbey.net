@@ -1,6 +1,6 @@
 ---
 title: 'Наполеоновское'
-date: '2008-07-24'
+date: 2008-07-24
 tags: post
 layout: post.njk
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'Пять звёздочек'
-date: '2008-05-28'
+date: 2008-05-28
 tags: post
 layout: post.njk
 ---

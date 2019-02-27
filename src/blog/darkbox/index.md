@@ -1,6 +1,6 @@
 ---
 title: 'Даркбокс'
-date: '2008-11-20'
+date: 2008-11-20
 tags: post
 layout: post.njk
 ---

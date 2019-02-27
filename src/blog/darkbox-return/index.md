@@ -1,6 +1,6 @@
 ---
 title: 'Возвращение Даркбокса'
-date: '2010-12-13'
+date: 2010-12-13
 tags: post
 layout: post.njk
 ---

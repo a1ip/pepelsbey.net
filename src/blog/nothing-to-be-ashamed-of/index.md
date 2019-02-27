@@ -1,6 +1,6 @@
 ---
 title: 'Нечего стыдиться'
-date: '2010-04-09'
+date: 2010-04-09
 tags: post
 layout: post.njk
 ---

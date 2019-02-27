@@ -1,6 +1,6 @@
 ---
 title: 'CSS-нудизм'
-date: '2008-04-08'
+date: 2008-04-08
 tags: post
 layout: post.njk
 ---

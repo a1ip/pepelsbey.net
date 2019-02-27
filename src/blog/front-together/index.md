@@ -1,6 +1,6 @@
 ---
 title: 'Фронтенд собирает'
-date: '2014-02-19'
+date: 2014-02-19
 tags: post
 layout: post.njk
 ---

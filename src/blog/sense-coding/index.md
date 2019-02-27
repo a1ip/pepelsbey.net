@@ -1,6 +1,6 @@
 ---
 title: 'Вёрстка со смыслом'
-date: '2011-07-01'
+date: 2011-07-01
 tags: post
 layout: post.njk
 ---

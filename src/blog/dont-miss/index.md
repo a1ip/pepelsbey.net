@@ -1,6 +1,6 @@
 ---
 title: 'Не пропустите этой осенью'
-date: '2010-09-12'
+date: 2010-09-12
 tags: post
 layout: post.njk
 ---

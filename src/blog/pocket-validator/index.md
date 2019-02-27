@@ -1,6 +1,6 @@
 ---
 title: 'Карманный валидатор'
-date: '2008-02-22'
+date: 2008-02-22
 tags: post
 layout: post.njk
 ---

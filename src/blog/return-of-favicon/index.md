@@ -1,6 +1,6 @@
 ---
 title: 'Возвращение favicon'
-date: '2008-02-14'
+date: 2008-02-14
 tags: post
 layout: post.njk
 ---

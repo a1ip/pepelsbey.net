@@ -1,6 +1,6 @@
 ---
 title: 'Яндекс.Субботник'
-date: '2008-12-24'
+date: 2008-12-24
 tags: post
 layout: post.njk
 ---

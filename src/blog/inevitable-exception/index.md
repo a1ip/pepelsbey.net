@@ -1,6 +1,6 @@
 ---
 title: 'Неизбежное Исключение'
-date: '2008-06-05'
+date: 2008-06-05
 tags: post
 layout: post.njk
 ---

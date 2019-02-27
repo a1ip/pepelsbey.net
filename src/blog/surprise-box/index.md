@@ -1,6 +1,6 @@
 ---
 title: 'Коробка с cюрпризами'
-date: '2008-11-07'
+date: 2008-11-07
 tags: post
 layout: post.njk
 ---

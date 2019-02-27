@@ -1,6 +1,6 @@
 ---
 title: 'И вновь продолжается бой…'
-date: '2008-03-06'
+date: 2008-03-06
 tags: post
 layout: post.njk
 ---

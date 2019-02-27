@@ -1,6 +1,6 @@
 ---
 title: 'Веб-шрифты vs. Шрифты для веба'
-date: '2009-12-16'
+date: 2009-12-16
 tags: post
 layout: post.njk
 ---

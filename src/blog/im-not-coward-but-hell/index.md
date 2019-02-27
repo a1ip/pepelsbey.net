@@ -1,6 +1,6 @@
 ---
 title: 'Я не трус, но чёрт возьми!'
-date: '2008-08-30'
+date: 2008-08-30
 tags: post
 layout: post.njk
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'TextMate Zen Coding 1.3'
-date: '2009-06-27'
+date: 2009-06-27
 tags: post
 layout: post.njk
 ---

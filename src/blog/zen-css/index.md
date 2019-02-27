@@ -1,6 +1,6 @@
 ---
 title: 'Zen CSS'
-date: '2008-10-24'
+date: 2008-10-24
 tags: post
 layout: post.njk
 ---

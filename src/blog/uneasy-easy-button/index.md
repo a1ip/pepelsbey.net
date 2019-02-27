@@ -1,6 +1,6 @@
 ---
 title: 'Непростая простая кнопка'
-date: '2012-07-19'
+date: 2012-07-19
 tags: post
 layout: post.njk
 ---

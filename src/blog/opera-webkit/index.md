@@ -1,6 +1,6 @@
 ---
 title: 'Зачем Опере Вебкит'
-date: '2013-09-17'
+date: 2013-09-17
 tags: post
 layout: post.njk
 ---

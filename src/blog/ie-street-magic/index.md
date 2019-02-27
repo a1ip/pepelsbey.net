@@ -1,6 +1,6 @@
 ---
 title: 'Уличная магия IE'
-date: '2008-09-05'
+date: 2008-09-05
 tags: post
 layout: post.njk
 ---

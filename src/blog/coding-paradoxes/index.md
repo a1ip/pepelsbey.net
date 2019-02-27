@@ -1,6 +1,6 @@
 ---
 title: 'Парадоксы разметки'
-date: '2008-05-19'
+date: 2008-05-19
 tags: post
 layout: post.njk
 ---

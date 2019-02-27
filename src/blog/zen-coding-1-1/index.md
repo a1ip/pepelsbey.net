@@ -1,6 +1,6 @@
 ---
 title: 'Zen Coding 1.1'
-date: '2008-11-06'
+date: 2008-11-06
 tags: post
 layout: post.njk
 ---

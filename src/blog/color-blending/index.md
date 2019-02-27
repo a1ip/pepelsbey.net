@@ -1,6 +1,6 @@
 ---
 title: 'Цветосмешение'
-date: '2010-08-13'
+date: 2010-08-13
 tags: post
 layout: post.njk
 ---

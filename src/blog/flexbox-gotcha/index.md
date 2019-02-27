@@ -1,6 +1,6 @@
 ---
 title: 'Flexbox, теперь понятно'
-date: '2013-05-27'
+date: 2013-05-27
 tags: post
 layout: post.njk
 ---

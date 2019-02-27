@@ -1,6 +1,6 @@
 ---
 title: 'Переменные в CSS'
-date: '2008-02-07'
+date: 2008-02-07
 tags: post
 layout: post.njk
 ---

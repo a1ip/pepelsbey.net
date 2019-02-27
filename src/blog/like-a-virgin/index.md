@@ -1,6 +1,6 @@
 ---
 title: 'Как новенький'
-date: '2008-11-03'
+date: 2008-11-03
 tags: post
 layout: post.njk
 ---

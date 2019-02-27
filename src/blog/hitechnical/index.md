@@ -1,6 +1,6 @@
 ---
 title: 'Высокотехнологично'
-date: '2008-05-07'
+date: 2008-05-07
 tags: post
 layout: post.njk
 ---
