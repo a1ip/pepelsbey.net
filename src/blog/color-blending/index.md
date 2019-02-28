@@ -33,19 +33,23 @@ layout: post.njk
 
     .color-000 {
         background: #000 url(000.png) no-repeat;
-        }
+    }
+
     .color-CCC {
         background: #CCC url(CCC.png) no-repeat;
-        }
+    }
+
     .color-C00 {
         background: #C00 url(C00.png) no-repeat;
-        }
+    }
+
     .color-090 {
         background: #090 url(090.png) no-repeat;
-        }
+    }
+
     .color-069 {
         background: #069 url(069.png) no-repeat;
-        }
+    }
 
 Такое наложение имитирует слои в Фотошопе. В браузерах вышла следующая картина:
 

@@ -47,15 +47,16 @@ _Читайте про более новую версию скрипта в за
 
 Да, чуть было не забыл про IE. Данному скрипту удалось угодить всем его актуальным версиям, начиная с 5.5 и заканчивая 8.0. Проблемы с `position: fixed` для IE6 и младше решаются при помощи `expression`:
 
-    * HTML BODY {
+    * html body {
         background: url(about:blank) fixed;
-        }
-    * HTML .popup-frame {
+    }
+
+    * html .popup-frame {
         position: absolute;
         top: expression(0+(
             (e=document.documentElement.scrollTop)
             ?e:document.body.scrollTop)+'px');
-        }
+    }
 
 Правило `background: url(about:blank) fixed` задаёт пустое фиксированное изображение для того, чтобы позиционирование блока в IE6 работало плавно, без рывков. Прозрачность для всех версий IE решается при помощи `filter: alpha(opacity=N)`, а использование PNG-24 картинки для кнопки, столь же традиционно лечится для IE6 с помощью `AlphaImageLoader`.
 

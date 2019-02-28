@@ -12,11 +12,12 @@ layout: post.njk
     .messages-list .highlighted,
     .messages-list .highlighted LI {
         overflow: hidden;
-        }
+    }
+
     .messages-list .highlighted LI .email,
     .messages-list .highlighted LI .phone {
         cursor: pointer;
-        }
+    }
 
 Теперь объявляем переменные:
 
@@ -28,11 +29,12 @@ layout: post.njk
     @list,
     @list-item {
         overflow: hidden;
-        }
+    }
+
     @list-item .email,
     @list-item .phone {
         cursor: pointer;
-        }
+    }
 
 Кстати говоря, это не единственные мысли на эту тему. Чуть больше месяца назад на [форуме Вебмаскона](http://webmascon.com/forum/) было опубликовано довольно [интересное предложение](http://webmascon.com/forum/viewtopic.php?t=6530) по решению той же проблемы. В нашем случае, часть примера выглядела бы так:
 

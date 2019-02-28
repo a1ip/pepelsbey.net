@@ -8,7 +8,7 @@ layout: post.njk
 Сначала мы [боялись](/blog/im-not-coward-but-hell/), потом вроде [взяли себя в руки](/blog/ie-street-magic/), приняв происходящее за простые и понятные фокусы. Сегодня пришло время удивляться снова — фокусы IE8 с переключением режимов рендеринга оказались хитрее, чем казалось поначалу. Что же мы знаем про магическую директиву `x-ua-compatible`?
 
 - Эта директива в виде элемента `<meta>` должна присутствовать в документе.
-- В ней должно быть указано одно из двух типов значений: `IE=x`, где `x` — это обозначение желаемой версии движка или специальное ключевое слово `EmulateIE7`.
+- В ней должно быть указано одно из двух типов значений: `ie=x`, где `x` — это обозначение желаемой версии движка или специальное ключевое слово `EmulateIE7`.
 - …и, в общем-то, всё.
 
 Давайте проверим, скормив IE8 простой документ:
@@ -18,18 +18,20 @@ layout: post.njk
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
     <head>
         <title>IE=x</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=x"/>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+        <meta http-equiv="x-ua-compatible" content="ie=x"/>
         <style type="text/css">
-            BODY[class*='page'] {
+            body[class*='page'] {
                 background:#090; /* IE8 и прочие современные */
-                }
-            *:first-child+HTML .page {
-                background:#FC0; /* IE7, исключительно */
-                }
-            * HTML .page {
-                background:#C00; /* IE6 и младше */
-                }
+            }
+
+            *:first-child + html .page {
+                background: #fc0; /* IE7, исключительно */
+            }
+
+            * html .page {
+                background: #c00; /* IE6 и младше */
+            }
         </style>
     </head>
     <body class="page"></body>
@@ -45,9 +47,9 @@ layout: post.njk
 
     <head>
         <title>IE=x</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=x"/>
+        <meta http-equiv="x-ua-compatible" content="ie=x"/>
     </head>
 
 …и вот здесь начинается самое интересное — все документы позеленели, при любых значениях `IE=x`. И это фактически означает то, что IE8 просто перестал воспринимать директиву `X-UA-Compatible`.

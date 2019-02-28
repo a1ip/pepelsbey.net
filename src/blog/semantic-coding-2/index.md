@@ -53,13 +53,15 @@ layout: post.njk
     .rss {
         padding-left:20px;
         background: url(rss.png) no-repeat;
-        }
+    }
+
     #header .rss {
         color:#C00;
-        }
+    }
+
     #footer .rss {
         color:#069;
-        }
+    }
 
 Семантически верное именование HTML-элементов при помощи атрибутов `id` и `class`, помимо самой семантики, привносит упорядоченность не только в сам документ, а ещё и в процесс разработки.
 

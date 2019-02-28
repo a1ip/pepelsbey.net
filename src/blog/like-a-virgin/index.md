@@ -57,18 +57,21 @@ layout: post.njk
 
 Что касается новых вещей, то в теперь в CSS есть правила, отвечающие за обработку инлайн-цитат `<q>`, к сожалению — по причинам кроссбраузерности, не при помощи правил `content: open-quote` и `content: close-quote`, а более грубо:
 
-    Q:before {
+    q::before {
         content: '\00AB';
-        }
-        Q Q:before {
-           content: '\201E';
-           }
-    Q:after {
+    }
+
+    q q::before {
+        content: '\201E';
+    }
+
+    q::after {
         content: '\00BB';
-        }
-        Q Q:after {
-           content: '\201C';
-           }
+    }
+
+    q q::after {
+        content: '\201C';
+    }
 
 …ну и другие радости из черновика CSS 3 с вендорными префиксами, которые хоть и благословлены W3C, но [делают CSS невалидным](http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fpepelsbey.net%2F%3Fp%3D268%26preview%3Dtrue):
 

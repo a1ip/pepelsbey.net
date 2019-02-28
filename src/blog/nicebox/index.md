@@ -30,10 +30,11 @@ layout: post.njk
     .form .lost {
         position: relative;
         left: -9999px;
-        }
+    }
+
     .form .radio-on {
         background: url(../i/radio/on.gif) 0 50% no-repeat;
-        }
+    }
 
 Таким образом, просто смещая контролы налево, мы сохраняем высоту строки и избегаем прыжков при срабатывании JS-функции.
 

@@ -36,7 +36,7 @@ layout: post.njk
 
     * + HTML .darkbox-done .darkbox-canvas {
         filter: none !important;
-        }
+    }
 
 Поддержка IE6 осознанно не предусмотрена, однако _магическая сила open source_ позволит вам не только дописать нужный уровень поддержки, но ещё и предложить её в виде патча к существующему проекту [прямо на GitHub](https://github.com/pepelsbey/darkbox). Дерзайте.
 
