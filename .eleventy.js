@@ -5,7 +5,7 @@ module.exports = function(config) {
     config.addPassthroughCopy('src/styles');
     config.addPassthroughCopy('src/fonts');
     config.addFilter('readableDate', (dateObj) => {
-        return DateTime.fromJSDate(dateObj).setLocale('ru').toFormat('dd MMMM yyyy');
+        return DateTime.fromJSDate(dateObj).setLocale('ru').toFormat('d MMMM yyyy');
     });
 
     return {
