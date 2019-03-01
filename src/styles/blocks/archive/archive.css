@@ -4,10 +4,24 @@
     grid-column: 1 / -1;
 }
 
-.archive__title {
-    margin: 0;
-    font-weight: normal;
+.archive::before {
+    display: block;
+    height: 0;
+    border-top: 1px solid hsla(6, 28%, 20%, 0.2);
+    border-bottom: 1px solid white;
+    content: '';
 }
+
+/* Title */
+
+.archive__title {
+    margin-top: 12px;
+    margin-bottom: 18px;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+/* List */
 
 .archive__list {
     margin: 0;
@@ -15,7 +29,25 @@
     list-style: none;
 }
 
+/* Item */
+
+.archive__item + .archive__item {
+    margin-top: 18px;
+}
+
+/* Link */
+
 .archive__link {
     text-decoration: none;
     color: #cc0000;
+    font-size: 24px;
+    line-height: 1;
+}
+
+/* Date */
+
+.archive__date {
+    display: block;
+    white-space: nowrap;
+    font-size: 16px;
 }
