@@ -4,8 +4,7 @@ layout: page.njk
 
 {% include 'header.njk' %}
 <main class="main content">
-    <h2>{{ collections.postsReversed[0].data.title }}</h2>
-    {{ collections.postsReversed[0].templateContent | safe }}
+    {{ content | safe }}
 </main>
 {% include 'archive.njk' %}
 {% include 'footer.njk' %}
