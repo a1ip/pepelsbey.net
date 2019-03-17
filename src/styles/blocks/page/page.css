@@ -7,7 +7,6 @@
     display: grid;
     box-sizing: border-box;
     min-height: 100vh;
-    padding: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: min-content 1fr min-content min-content;
     grid-gap: 20px;

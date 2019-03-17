@@ -2,6 +2,8 @@
 
 .header {
     grid-column: 1 / -1;
+    padding: 20px;
+    background-color: hsla(6, 28%, 20%, 0.1);
 }
 
 .header__title {

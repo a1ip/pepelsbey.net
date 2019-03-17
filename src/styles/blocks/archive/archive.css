@@ -2,6 +2,7 @@
 
 .archive {
     grid-column: 1 / -1;
+    padding: 20px;
 }
 
 .archive::before {
@@ -38,10 +39,23 @@
 /* Link */
 
 .archive__link {
+    --archive__link-color: hsla(0, 100%, 40%, 0.2);
+    --archive__link-height: 0.1em;
     text-decoration: none;
+    background-image: linear-gradient(
+        to top,
+        var(--archive__link-color),
+        var(--archive__link-color) var(--archive__link-height),
+        transparent var(--archive__link-height)
+    );
     color: #cc0000;
     font-size: 24px;
     line-height: 1;
+}
+
+.archive__link:hover,
+.archive__link:focus {
+    --archive__link-color: hsla(0, 100%, 40%, 0.7);
 }
 
 /* Date */
