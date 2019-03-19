@@ -7,6 +7,6 @@ layout: post.njk
 
 Вашему вниманию предлагается видеозапись презентации «С ножом против паровоза», прозвучавшей на [Яндекс.Субботнике](http://clubs.ya.ru/company/replies.xml?item_no=15607) в Киеве 25 апреля 2009 года. Речь в ней идёт о нарезке и оптимизации изображений для вёрстки. Длительность доклада вместе с вопросами — 58 минут.
 
-<iframe src="https://player.vimeo.com/video/17588925?title=0&amp;byline=0&amp;portrait=0&amp;color=188418" width="609" height="457" frameborder="0" class="video-player"></iframe>
+<iframe src="https://player.vimeo.com/video/17588925?title=0&amp;byline=0&amp;portrait=0&amp;color=188418"></iframe>
 
 Для лучшего понимания, доступен оригинал презентации: [С ножом против паровоза](with-knife-against-train.pdf) (PDF, 4.4 МБ).

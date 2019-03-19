@@ -9,7 +9,7 @@ layout: post.njk
 
 Поэтому, вслед за рассказом о редакторе [TextMate](http://macromates.com/) и пакете настроек [Zen HTML](/blog/zen-html/), следует обзор пакета Zen CSS. Для начала, предлагаю вам небольшой скринкаст, демонстрирующий его основные возможности:
 
-<iframe src="https://player.vimeo.com/video/17588946?title=0&amp;byline=0&amp;portrait=0&amp;color=188418" width="609" height="457" frameborder="0" class="video-player"></iframe>
+<iframe src="https://player.vimeo.com/video/17588946?title=0&amp;byline=0&amp;portrait=0&amp;color=188418"></iframe>
 
 Подобно принципам работы предыдущего пакета, принципы этого основаны на использовании псевдонимов для CSS-свойств. Например:
 

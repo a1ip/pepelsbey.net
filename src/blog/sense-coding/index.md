@@ -7,6 +7,6 @@ layout: post.njk
 
 Этой весной в Москве состоялась конференция [РИТ 2011](http://ritconf.ru/), на которой была представлена довольно сильная клиент-сайд секция. И пока одни видео только готовятся к публикации, а другие выкачиваются из RTMP-потока, в котором их спрятали ребята из COMDI, предлагаю вам посмотреть мой доклад «[Вёрстка со смыслом. Новая семантика HTML5](http://vimeo.com/25823931)».
 
-	<iframe src="https://player.vimeo.com/video/25823931?title=0&amp;byline=0&amp;portrait=0&amp;color=188418" width="610" height="343" class="video-player"></iframe>
+<iframe src="https://player.vimeo.com/video/25823931?title=0&amp;byline=0&amp;portrait=0&amp;color=188418"></iframe>
 
 Сама презентация, работающая прямо в браузере, [доступна для внимательного изучения](/pres/sense-coding/), а видео можно скачать [на его странице](http://vimeo.com/25823931) на Vimeo. Остальные видео с конференции, имеющие отношение к клиент-сайд разработке, позже появятся на канале [Web Standards Days](http://vimeo.com/channels/wstdays).

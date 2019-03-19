@@ -11,7 +11,7 @@ layout: post.njk
 
 Поэтому сегодня я предлагаю вам первую часть обзора пакетов настройки (bundles), написанных для быстрой и комфортной работы с [TextMate](http://macromates.com/). Обзор представлен в виде двухминутного скринкаста:
 
-<iframe src="https://player.vimeo.com/video/17588964?title=0&amp;byline=0&amp;portrait=0&amp;color=188418" width="609" height="457" frameborder="0" class="video-player"></iframe>
+<iframe src="https://player.vimeo.com/video/17588964?title=0&amp;byline=0&amp;portrait=0&amp;color=188418"></iframe>
 
 Принцип работы с HTML-элементами в этом пакете состоит в том, что каждому элементу присваивается определённый псевдоним, который разворачивается в полный элемент с необходимыми атрибутами после нажатия клавиши Tab. К примеру:
 

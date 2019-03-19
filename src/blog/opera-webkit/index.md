@@ -7,6 +7,6 @@ layout: post.njk
 
 На злобу самого значительного события за время моей работы в Opera Software — перехода компании на движок WebKit — этой весной я написал доклад «Зачем Опере Вебкит» и рассказал его на нескольких площадках. Самый первый черновик, почти без слайдов, был сымпровизирован в Новосибирске на [CodeFest 2013](http://2013.codefest.ru/), а первая полноценная версия прозвучала на [РИТ 2013](http://ritconf.ru/). Размышление, почти исповедь от лица компании, разбавленная альтернативной историей и анатомией браузерных движков.
 
-	<iframe src="https://player.vimeo.com/video/73934576?title=0&amp;byline=0&amp;portrait=0&amp;color=188418" width="610" height="343" class="video-player"></iframe>
+<iframe src="https://player.vimeo.com/video/73934576?title=0&amp;byline=0&amp;portrait=0&amp;color=188418"></iframe>
 
 Под видео можно полистать [самую последнюю версию презентации](/pres/opera-webkit/). А для тех, кому интересно посмотреть, во что превратился доклад к самому последнему выступлению в Екатеринбурге на [FrontTalks](http://fronttalks.ru/), есть [другое видео](http://video.yandex.ru/users/fronttalks/view/22/).
