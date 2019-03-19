@@ -3,17 +3,11 @@
 .footer {
     grid-column: 1 / -1;
     padding: 20px;
-}
-
-.footer::before {
-    display: block;
-    height: 0;
-    border-top: 1px solid hsla(6, 28%, 20%, 0.2);
-    border-bottom: 1px solid white;
-    content: '';
+    background-color: hsla(6, 28%, 20%, 0.1);
+    /* box-shadow: 0 1px 0 0 hsla(6, 28%, 20%, 0.2) inset; */
 }
 
 .footer__copy {
-    margin-top: 16px;
+    margin-top: 0;
     margin-bottom: 0;
 }

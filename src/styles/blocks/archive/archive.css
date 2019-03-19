@@ -3,21 +3,15 @@
 .archive {
     grid-column: 1 / -1;
     padding: 20px;
-}
-
-.archive::before {
-    display: block;
-    height: 0;
-    border-top: 1px solid hsla(6, 28%, 20%, 0.2);
-    border-bottom: 1px solid white;
-    content: '';
+    box-shadow: var(--separator);
 }
 
 /* Title */
 
 .archive__title {
-    margin-top: 12px;
+    margin-top: 0;
     margin-bottom: 18px;
+    line-height: 1;
     font-weight: normal;
     font-size: 24px;
 }
@@ -62,6 +56,8 @@
 
 .archive__date {
     display: block;
+    margin-top: 2px;
+    color: hsla(6, 28%, 20%, 0.68);
     white-space: nowrap;
     font-size: 16px;
 }

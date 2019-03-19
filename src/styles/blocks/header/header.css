@@ -2,19 +2,20 @@
 
 .header {
     grid-column: 1 / -1;
-    padding: 20px;
+    padding: 20px 20px 18px;
     background-color: hsla(6, 28%, 20%, 0.1);
+    box-shadow: 0 1px 0 0 hsla(6, 28%, 20%, 0.2) inset;
 }
 
 .header__title {
     margin: 0;
     line-height: 1;
     font-weight: normal;
-    font-size: 35px;
+    font-size: 36px;
 }
 
 .header__link {
-    display: flex;
+    display: inline-flex;
     color: #402724;
     text-decoration: none;
 }
