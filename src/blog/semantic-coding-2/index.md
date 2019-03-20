@@ -33,7 +33,7 @@ layout: post.njk
     <label for="full-name">
         Полное имя
     </label>
-    <input type="text" id="full-name"/>
+    <input type="text" id="full-name">
 
 В то время, как `class` — это общее имя множества элементов и, соответственно, их общая семантическая роль. Множественные классы для одного элемента позволяют удобно комбинировать не только стили, но ещё смысловые значения нескольких имён. Данный фрагмент микроформата [hCard](http://microformats.org/wiki/hcard) говорит нам о том, что эта ссылка ведёт на _сайт_ (url) _организации_ (org) под _названием_ (fn) «Яндекс»:
 
@@ -71,7 +71,7 @@ layout: post.njk
 
 Основа интернета — это гипертекстуальность, т.е. связь документов при помощи гиперссылок, создающая единое информационное пространство сети. Говоря же о третьем уровне семантики, мы подразумеваем создание смысловых связей между семантическими единицами в документе.
 
-Единственным внятным примером этого механизма на данный момент являются [микроформаты](http://microformats.org) (μf). Идейным вдохновителем данной методики семантической разметки является Тантек Челик (Tantek Çelik), известный нам по работе над IE for Mac, [Box Model Hack](http://tantek.com/CSS/Examples/boxmodelhack.html) и проекту [Technorati](http://technorati.com/).
+Единственным внятным примером этого механизма на данный момент являются [микроформаты](http://microformats.org) (μf). Идейным вдохновителем данной методики семантической разметки является Тантек Челик (Tantek Çelik), известный нам по работе над IE для Mac, [Box Model Hack](http://tantek.com/CSS/Examples/boxmodelhack.html) и проекту [Technorati](http://technorati.com/).
 
 Микроформаты сами по себе являются большой темой для изучения, для чего я могу порекомендовать следить за обновлениями следующих ресурсов:
 
@@ -87,7 +87,7 @@ layout: post.njk
         <a href='#'>
             <img src='#' alt='[info]' width='17' height='17'
                 style='vertical-align: bottom;
-                border: 0; padding-right: 1px;' />
+                border: 0; padding-right: 1px;'>
         </a>
         <a href='#'>
             <b>kuteev</b>
@@ -105,7 +105,7 @@ layout: post.njk
     <span class="ljuser vcard">
         <a href="#" target="_blank"
             class="ico" title="Профиль">
-            <img src="#" alt="" />
+            <img src="#" alt="">
         </a>
         <a href="#" target="_blank"
             class="fn nickname url" title="Журнал">
