@@ -10,7 +10,7 @@
 
 .archive__title {
     margin-top: 0;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     line-height: 1;
     font-weight: normal;
     font-size: 24px;
@@ -19,15 +19,23 @@
 /* List */
 
 .archive__list {
+    display: grid;
+    grid-gap: 16px 20px;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-/* Item */
+@media (min-width: 520px) {
+    .archive__list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
-.archive__item + .archive__item {
-    margin-top: 18px;
+@media (min-width: 920px) {
+    .archive__list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 /* Link */
@@ -42,7 +50,8 @@
         var(--archive__link-color) var(--archive__link-height),
         transparent var(--archive__link-height)
     );
-    color: #cc0000;
+    background-position: left 0 bottom 0.1em;
+    color: hsl(0, 100%, 40%);
     font-size: 24px;
     line-height: 1;
 }
@@ -56,7 +65,7 @@
 
 .archive__date {
     display: block;
-    margin-top: 2px;
+    margin-top: 4px;
     color: hsla(6, 28%, 20%, 0.68);
     white-space: nowrap;
     font-size: 16px;

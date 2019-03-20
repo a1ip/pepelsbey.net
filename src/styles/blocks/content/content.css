@@ -9,7 +9,7 @@
 .content h2 {
     margin-top: 32px;
     margin-bottom: 0;
-    padding-bottom: 16px;
+    padding-bottom: 8px;
     line-height: 1;
     font-weight: normal;
 }
@@ -37,6 +37,7 @@
         var(--content__link-color) var(--content__link-height),
         transparent var(--content__link-height)
     );
+    background-position: left 0 bottom 0.15em;
     color: hsl(0, 100%, 40%);
 }
 
@@ -49,6 +50,11 @@
 
 .content code {
     font-family: 'Consolas', sans-serif;
+}
+
+.content pre {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Images */
