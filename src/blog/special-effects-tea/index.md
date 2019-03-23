@@ -47,20 +47,20 @@ layout: post.njk
 Теперь отбросим все браузерные условности простым ластиком. Чай у нас незамысловатый, поэтому здесь подойдёт и `* { … }`. Для более сложных проектов всё же рекомендуется использовать [reset.css](http://meyerweb.com/eric/tools/css/reset/)
 
     * {
-        padding:0;
-        margin:0;
+        padding: 0;
+        margin: 0;
     }
 
 Наступает очередь воплотить все составные части нашего чая: позиционируем их по центру, правильно расставляем z-index, задаём размеры и цвет фона для каждого элемента. Вот как выглядит чашка:
 
     .cup {
-        position:absolute;
-        top:50%;
-        left:50%;
-        z-index:2;
-        margin:-150px 0 0 -150px;
-        width:300px;
-        height:300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 2;
+        margin: -150px 0 0 -150px;
+        width: 300px;
+        height: 300px;
     }
 
 …и получаем [пример №1](demo/1.html), он же [на картинке](images/1.png).
@@ -74,20 +74,20 @@ layout: post.njk
 Скругляем блюдце: его ширина и высота равны 500-м пикселям, значит для того, чтобы получить окружность, радиус скругления должен составлять половину ширины, т.е. 250 пикселей:
 
     .saucer {
-        position:absolute;
-        top:50%;
-        left:50%;
-        z-index:1;
-        margin:-250px 0 0 -250px;
-        width:500px;
-        height:500px;
-        -webkit-border-radius:250px;
-        -moz-border-radius:250px;
-        border-radius:250px;
-        background:#FFF;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        margin: -250px 0 0 -250px;
+        width: 500px;
+        height: 500px;
+        -webkit-border-radius: 250px;
+        -moz-border-radius: 250px;
+        border-radius: 250px;
+        background: #FFF;
     }
 
-В данном случае компактное правило `border-radius:250px` задаёт радиус скругления всех четырёх углов, точно так же, как `margin:0` обнуляет поля со всех четырёх сторон элемента.
+В данном случае компактное правило `border-radius: 250px` задаёт радиус скругления всех четырёх углов, точно так же, как `margin: 0` обнуляет поля со всех четырёх сторон элемента.
 
 Обратите внимание на префиксы `-webkit` и `-moz` — они нужны браузерам на основе Webkit (Safari, Chrome) и Gecko (Firefox) для того, чтобы применить скругление. Последняя альфа браузера Opera обрабатывает свойство без префикса. Подобным же образом мы скругляем сосуд, чай и донышко. Ручку и подтаявшие кусочки сахара мы подтачиваем до скруглённых брусков.
 
@@ -100,9 +100,9 @@ layout: post.njk
 Будем честны, мы здесь не пытаемся заигрывать с [Canvas](http://www.whatwg.org/specs/web-apps/current-work/#the-canvas-element), поэтому объём у нас будет псевдо-трёхмерным. А много ли надо нам, жертвам квадратного и плоского веба? Берём в руки свойство `box-shadow` и вперёд:
 
     .vessel {
-        -webkit-box-shadow:20px 20px 100px rgba(0,0,0,.8);
-        -moz-box-shadow:20px 20px 100px rgba(0,0,0,.8);
-        box-shadow:20px 20px 100px rgba(0,0,0,.8);
+        -webkit-box-shadow: 20px 20px 100px rgba(0,0,0,.8);
+        -moz-box-shadow: 20px 20px 100px rgba(0,0,0,.8);
+        box-shadow: 20px 20px 100px rgba(0,0,0,.8);
     }
 
 Свойство `box-shadow` конструируется просто: горизонтальное смещение тени, вертикальное, размер и цвет, который мы задаём в виде `rgba()`, чтобы последним значением указать полупрозрачность заливки. В случае с элементом `tea`, также используется ключевое слово `inset`, чтобы повернуть тень внутрь элемента.
@@ -122,31 +122,31 @@ layout: post.njk
 Для начала, вернём ручку ровно в центр чашки, изменив значение отрицательного поля, а потом применим `transform`: повернём на –145 градусов и сместим на 170 пикселей.
 
     .handle {
-        margin:-20px 0 0 -45px;
-        transform:rotate(-145deg) translate(170px,0);
+        margin: -20px 0 0 -45px;
+        transform: rotate(-145deg) translate(170px,0);
     }
 
 Принимаемся за кубики: их у нас ровно два. Не знаю, как для вас, но для меня это оптимальное количество сахара. И нам нужно обратиться к каждому из кубиков, чтобы применить нужное смещение. Самым удачным способом будет посчитать их по порядку появления в чае, при помощи селектора `:nth-child()`:
 
     .sugar:nth-child(1) {
-        transform:rotate(70deg) translate(-20px,20px);
+        transform: rotate(70deg) translate(-20px,20px);
     }
 
     .sugar:nth-child(2) {
-        transform:rotate(30deg) translate(35px,0);
+        transform: rotate(30deg) translate(35px,0);
     }
 
 Теперь всё на месте, и вроде бы можно пить чай, но сахар упорно не желает размешиваться. Значит, самое время встряхнуть его при помощи сочетания свойств `transform` и `transition`. Для начала мы задаём каждому кубику новое смещение, которое произойдёт при наведении на чашку: поворот на 1200 градусов и новые координаты.
 
     .cup:hover
     .sugar:nth-child(1) {
-        transform:rotate(1200deg) translate(-20px,20px);
+        transform: rotate(1200deg) translate(-20px,20px);
     }
 
 А затем описываем сам процесс перемещения:
 
     .sugar {
-        transition:transform 10s ease-out;
+        transition: transform 10s ease-out;
     }
 
 Синтаксис свойства `transition` простой: сначала идёт то свойство, которое мы собираемся изменять, потом время и тип ускорения, в нашем случае `ease-out`, что значит с замедлением. При наведении курсора на чашку `.cup:hover` сахар будет размешиваться по часовой стрелке, при отведении — в обратную сторону.
@@ -183,14 +183,14 @@ layout: post.njk
 Осталось только добавить специфические стили для каждого из языков (тематическую скатерть и цвет чая) и поменять состояние текущего пункта меню. Вся магия происходит благодаря псевдо-классу `:lang()`, который появляется у каждого элемента после того, как мы обновили атрибут `lang` элемента `<html>`:
 
     body:lang(en-US) {
-        background:#519AB8 url(i/en.png);
+        background: #519AB8 url(i/en.png);
     }
 
-    .switcher:lang(en-US) LI[lang=en-US],
-    .switcher:lang(ru-RU) LI[lang=ru-RU],
-    .switcher:lang(ja-JP) LI[lang=ja-JP] {
-        border-color:#FFF;
-        cursor:default;
+    .switcher:lang(en-US) li[lang=en-US],
+    .switcher:lang(ru-RU) li[lang=ru-RU],
+    .switcher:lang(ja-JP) li[lang=ja-JP] {
+        border-color: #FFF;
+        cursor: default;
     }
 
 И, наконец, последний [пример №5](demo/5.html), он же [на картинке](images/5.jpg). Чай готов, сахар по вкусу — можно пить :)
