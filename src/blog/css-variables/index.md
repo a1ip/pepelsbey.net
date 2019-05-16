@@ -10,19 +10,19 @@ layout: post.njk
 Типичный код до использования переменных:
 
     .messages-list .highlighted,
-    .messages-list .highlighted LI {
+    .messages-list .highlighted li {
         overflow: hidden;
     }
 
-    .messages-list .highlighted LI .email,
-    .messages-list .highlighted LI .phone {
+    .messages-list .highlighted li .email,
+    .messages-list .highlighted li .phone {
         cursor: pointer;
     }
 
 Теперь объявляем переменные:
 
     @list = .messages-list .highlighted;
-    @list-item = @list LI;
+    @list-item = @list li;
 
 …и получаем:
 
@@ -40,7 +40,7 @@ layout: post.njk
 
     .messages-list {
         .highlighted {
-            LI {
+            li {
                 .email,
                 .phone {
                     cursor: pointer;

@@ -18,8 +18,8 @@ layout: post.njk
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
     <head>
         <title>IE=x</title>
-        <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-        <meta http-equiv="x-ua-compatible" content="ie=x"/>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=x">
         <style type="text/css">
             body[class*='page'] {
                 background:#090; /* IE8 и прочие современные */
@@ -47,9 +47,9 @@ layout: post.njk
 
     <head>
         <title>IE=x</title>
-        <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-        <meta http-equiv="x-ua-compatible" content="ie=x"/>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <meta http-equiv="x-ua-compatible" content="ie=x">
     </head>
 
 …и вот здесь начинается самое интересное — все документы позеленели, при любых значениях `IE=x`. И это фактически означает то, что IE8 просто перестал воспринимать директиву `X-UA-Compatible`.

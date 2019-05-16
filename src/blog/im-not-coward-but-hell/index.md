@@ -12,9 +12,9 @@ layout: post.njk
 Для тех, кто не хочет, чтобы было страшно, есть два решения. Первое — поверить лозунгам Microsoft, что, мол, мы делаем браузер ориентированный на полную поддержку веб-стандартов. Что ж — отлично, значит, во избежание каких-то проблем, нужно просто не отдавать IE8 файлы хаков:
 
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
         <!--[if lt IE 8]>
-            <link rel="stylesheet" type="text/css" href="ie.css"/>
+            <link rel="stylesheet" type="text/css" href="ie.css">
         <![endif]-->
     </head>
 
@@ -22,7 +22,7 @@ layout: post.njk
 
 Второй вариант существует благодаря паранойе Microsoft по поводу обратной совместимости. С другой стороны, их можно понять — у них на совести столько лет наплевательства на развитие собственного браузера. Называется этот переключатель `X-UA-Compatible` и включает в IE8 режим особый режим рендеринга не запутанными схемами `DOCTYPE`, а вполне ясным указанием:
 
-    <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
 
 «Запустим-ка сайт в режиме совместимости с IE7», — говорит нам этот код. Что значит, что IE8 использует для рендеринга вашего кода один из трёх (sic!) движков, что спрятаны у него под капотом, а именно режим _совместимости со стандартами_ (standard compliance mode), который включается в IE6–7 при наличии правильного `DOCTYPE`. Оставшиеся два — это хвалёный _режим соответствия стандартам_ (super standard mode) и конечно же _режим уловок_ (quirks mode).
 
@@ -31,10 +31,10 @@ layout: post.njk
 Итак, комбинируем:
 
     <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=7"/>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <!--[if IE]>
-            <link rel="stylesheet" type="text/css" href="ie.css"/>
+            <link rel="stylesheet" type="text/css" href="ie.css">
         <![endif]-->
     </head>
 

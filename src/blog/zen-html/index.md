@@ -17,12 +17,12 @@ layout: post.njk
 
     tarea → <textarea cols="30" rows="10"></textarea>
     fset → <fieldset></fieldset>
-    img → <img src="" alt=""/>
+    img → <img src="" alt="">
 
 Следующий тип псевдонимов отвечает за вывод специфических элементов и строится по принципу _псевдоним + двоеточие + специфический псевдоним_:
 
-    input:text → <input type="text"/>
-    link:css → <link rel="stylesheet" type="text/css" href="style.css"/>
+    input:text → <input type="text">
+    link:css → <link rel="stylesheet" type="text/css" href="style.css">
     cc:ie → <!--[if IE]><![endif]-->
 
 В случае, когда нам нужно вывести не просто HTML-элемент, а целое дерево, к элементу добавляется символ плюса:

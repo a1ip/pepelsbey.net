@@ -115,9 +115,9 @@ layout: post.njk
 
     <div id="menu">
         <a href="#">Колбаса</a>
-        <br/>
+        <br>
         <a href="#">Макароны</a>
-        <br/>
+        <br>
         <a href="#">Тушёнка</a>
     </div>
 

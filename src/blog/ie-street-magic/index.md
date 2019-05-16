@@ -18,7 +18,7 @@ layout: post.njk
 
 В то время как для IE8 достаточно произнести подобное заклинание:
 
-    <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
 
 В данном списке не учтены особенности перехода IE8 из _режима соответствия стандартам_ в _режим совместимости со стандартами_ на интранет-страницах, что является скорее бизнес-ходом, не дающим разработчикам особого выбора. Подробнее об этом можно прочитать у Хокона Ли (Hakon Lie) в заметке «[Microsoft breaks IE8 interoperability promise](http://www.theregister.co.uk/2008/08/29/hakon_lie_ie8_interoperability/)».
 

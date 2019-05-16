@@ -19,7 +19,7 @@ layout: post.njk
     <ul>
         <li>
             <label for="first-1">
-                <input type="radio" name="first" id="first-1" />
+                <input type="radio" name="first" id="first-1">
                 Представляет
             </label>
         </li>
