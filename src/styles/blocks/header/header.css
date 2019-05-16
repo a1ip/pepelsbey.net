@@ -14,6 +14,7 @@
 
 .header__link {
     display: inline-flex;
+    outline: none;
     color: #402724;
     text-decoration: none;
 }
@@ -22,5 +23,11 @@
     margin-left: -0.1em;
     margin-right: 0.1em;
     width: 1em;
+    height: 1em;
+    border-radius: 50%;
     content: url(logo.svg);
+}
+
+.header__link:focus::before {
+    box-shadow: 0 0 0 3px #91b4f5;
 }

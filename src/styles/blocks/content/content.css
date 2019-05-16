@@ -29,21 +29,30 @@
 
 .content a {
     --content__link-color: hsla(0, 100%, 40%, 0.2);
-    --content__link-height: 0.08em;
-    text-decoration: none;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    margin-left: -0.2em;
+    margin-right: -0.2em;
+    outline: none;
+    border-radius: 0.2em;
     background-image: linear-gradient(
         to top,
         var(--content__link-color),
-        var(--content__link-color) var(--content__link-height),
-        transparent var(--content__link-height)
+        var(--content__link-color) 0.08em,
+        transparent 0.08em
     );
     background-position: left 0 bottom 0.15em;
+    box-decoration-break: slice;
     color: hsl(0, 100%, 40%);
+    text-decoration: none;
 }
 
-.content a:hover,
-.content a:focus {
+.content a:hover {
     --content__link-color: hsla(0, 100%, 40%, 0.7);
+}
+
+.content a:focus {
+    box-shadow: 0 0 0 0.2em #91b4f5;
 }
 
 /* Code */
