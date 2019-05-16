@@ -2,15 +2,14 @@
 
 .archive {
     grid-column: 1 / -1;
-    padding: 20px;
-    box-shadow: var(--separator);
 }
 
 /* Title */
 
 .archive__title {
     margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 0;
+    padding: 20px;
     line-height: 1;
     font-weight: normal;
     font-size: 24px;
@@ -20,7 +19,6 @@
 
 .archive__list {
     display: grid;
-    grid-gap: 16px 20px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -42,40 +40,44 @@
 
 .archive__item {
     position: relative;
+    padding: 16px 20px;
 }
 
-.archive__item--current::before {
+.archive__item::before {
     position: absolute;
-    top: -10px;
-    right: -10px;
-    bottom: -10px;
-    left: -10px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: -1;
     content: '';
-    background-color: hsla(6, 28%, 20%, 0.1);
 }
 
 /* Link */
 
 .archive__link {
     --archive__link-color: hsla(0, 100%, 40%, 0.2);
-    --archive__link-height: 0.1em;
-    text-decoration: none;
+    outline: none;
     background-image: linear-gradient(
         to top,
         var(--archive__link-color),
-        var(--archive__link-color) var(--archive__link-height),
-        transparent var(--archive__link-height)
+        var(--archive__link-color) 0.1em,
+        transparent 0.1em
     );
     background-position: left 0 bottom 0.1em;
     color: hsl(0, 100%, 40%);
-    font-size: 24px;
+    text-decoration: none;
     line-height: 1;
+    font-size: 24px;
 }
 
-.archive__link:hover,
-.archive__link:focus {
-    --archive__link-color: hsla(0, 100%, 40%, 0.7);
+.archive__link::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
 }
 
 /* Date */
@@ -86,4 +88,31 @@
     color: hsla(6, 28%, 20%, 0.68);
     white-space: nowrap;
     font-size: 16px;
+}
+
+/* Hover */
+
+.archive__item:not(.archive__item--current):hover::before {
+    background-color: hsla(6, 28%, 20%, 0.1);
+}
+
+/* Focus */
+
+.archive__link:focus::before {
+    box-shadow: 0 0 0 3px #91b4f5 inset;
+}
+
+/* Current */
+
+.archive__item--current::before {
+    background-color: hsl(0, 100%, 40%);
+}
+
+.archive__item--current .archive__link {
+    --archive__link-color: hsla(0, 100%, 100%, 0.4);
+    color: white;
+}
+
+.archive__item--current .archive__date {
+    color: white;
 }
