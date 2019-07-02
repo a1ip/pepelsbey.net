@@ -2,7 +2,7 @@ const { DateTime } = require('luxon');
 
 module.exports = function(config) {
     config.addPassthroughCopy('src/pres');
-    config.addPassthroughCopy('src/styles');
+    config.addPassthroughCopy('src/blocks');
     config.addPassthroughCopy('src/fonts');
 
     config.addFilter('readableDate', (dateObj) => {
