@@ -2,12 +2,13 @@ module.exports = function(config) {
     config.addPassthroughCopy('src/pres');
     config.addPassthroughCopy('src/blocks');
     config.addPassthroughCopy('src/fonts');
+    config.addPassthroughCopy('src/blog/**/*.(html|gif|jpg|png|svg|zip)');
 
     config.addFilter('readableDate', (value) => {
         return value.toLocaleString('ru', {
             year: 'numeric',
             month: 'long',
-            day: 'numeric'
+            day: 'numeric',
         }).replace(' г.', '');
     });
 
@@ -18,12 +19,15 @@ module.exports = function(config) {
     return {
         dir: {
             input: 'src',
-            output: 'dist'
+            output: 'dist',
+            includes: 'includes',
+            layouts: 'layouts',
+            data: 'data',
         },
         passthroughFileCopy: true,
         templateFormats: [
             'md',
-            'gif', 'jpg', 'png', 'svg'
+            'njk',
         ],
     };
 };
